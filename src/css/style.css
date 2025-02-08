@@ -301,10 +301,10 @@ body {
   border-radius: 15px; 
 }
 .footer {
-  background: white; /* Белый фон */
-  color: #333; /* Тёмный текст для контраста */
+  background: white; 
+  color: #333; 
   padding: 30px 0;
-  text-align: left; /* Выравнивание по левому краю */
+  text-align: left; 
   
 }
 
@@ -334,7 +334,7 @@ body {
 .politics a,
 .footer-contacts p,
 .footer-social p {
-  color: #333; /* Тёмный цвет текста */
+  color: #333; 
   text-decoration: none;
   font-size: 14px;
 }
@@ -342,7 +342,7 @@ body {
   margin-left: 120px;
 }
 .politics a:hover {
-  color: #007bff; /* Цвет при наведении */
+  color: #007bff; 
   text-decoration: underline;
 }
 
@@ -371,7 +371,7 @@ body {
 }
 
 .footer-content a:hover {
-  color: #007bff; /* Цвет при наведении */
+  color: #007bff; 
   text-decoration: underline;
 }
 .footer-links{
