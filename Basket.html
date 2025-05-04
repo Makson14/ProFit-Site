@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="src/css/BasketStyle.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="cart-container">
+        <div class="cart-header">
+        <h2 class="cart-title">Корзина</h2>
+        <a href="/index.html" class="back">Вернуться на главную</a>
+    </div>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="src/img/NikeAir2.jpg" alt="Кроссовки Nike">
+                <div class="item-info">
+                    <p class="item-name">Кроссовки для бега Nike Air Zoom Pegasus</p>
+                    <p>Размер: 42 &nbsp;&nbsp; Цвет: чёрный</p>
+                    <p class="price"><span class="current-price">8 400 ₽</span> <span class="old-price">12 000 ₽</span></p>
+                </div>
+                <div class="item-controls">
+                    <button class="quantity-btn">+</button>
+                    <span>1</span>
+                    <button class="quantity-btn">-</button>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="src/img/Ganteli.jpg" alt="Гантели">
+                <div class="item-info">
+                    <p class="item-name">Гантели наборные 20кг</p>
+                    <p>Материал: металл</p>
+                    <p class="price"><span class="current-price">3 500 ₽</span> <span class="old-price">5 000 ₽</span></p>
+                </div>
+                <div class="item-controls">
+                    <button class="quantity-btn">+</button>
+                    <span>1</span>
+                    <button class="quantity-btn">-</button>
+                    <button class="delete-btn">🗑️</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-buttons">
+            <button class="clear-cart">Очистить корзину</button>
+            <div class="summary">
+                <p>Сумма товаров: <span>17 000 ₽</span></p>
+                <p>Скидка: <span>5 100 ₽</span></p>
+                <p class="total"><strong>Итого к оплате: 11 900 ₽</strong></p>
+                <button class="checkout">Оформить заказ</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

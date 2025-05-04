@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/css/Adaptive.css">
     <link rel="stylesheet" href="/src/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400&display=swap"
@@ -11,7 +12,6 @@
     <title>ProFit</title>
   </head>
   <body>
-    <!--Header-->
     <header class="header-container">
       <div class="header-container-content">
         <div class="header-container-logo">
@@ -23,13 +23,13 @@
         <nav class="header-container-list">
           <ul class="header-container-items">
             <li><a href="#">О нас</a></li>
-            <li><a href="#">Товары</a></li>
-            <li><a href="#">Корзина</a></li>
+            <li><a href="/Catalog.html">Товары</a></li>
+            <li><a href="/Basket.html">Корзина</a></li>
           </ul>
         </nav>
         <div class="header-container-buttons">
-          <button class="login-button">Войти</button>
-          <button class="register-button">Зарегистрироваться</button>
+          <button class="login-button"><a href="/Authorization.html">Войти</a></button>
+          <button class="register-button"><a href="/Registration.html">Зарегистрироваться</a></button>
         </div>
       </div>
     </header>
@@ -40,7 +40,7 @@
           для спорта, фитнеса и активного отдыха, предоставляющий широкий и
           только качественный ассортимент.
         </h3>
-        <button class="intro-button">В каталог</button>
+        <a href="/Catalog.html"><button class="intro-button">В каталог</button></a>
       </div>
     </div>
     <div class="popular-section">
@@ -142,8 +142,8 @@
       </div>
       <div class="footer-links">
     <a href="#">О нас</a>
-    <a href="#">Товары</a>
-    <a href="#">Корзина</a>
+    <a href="/Catalog.html">Товары</a>
+    <a href="/Basket.html">Корзина</a>
       </div>
   </div>
 </footer>

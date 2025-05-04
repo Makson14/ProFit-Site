@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="/src/css/RegStyle.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/src/js/script.js"></script>
+</head>
+<body>
+    <div class="form-box">
+        <h2>Регистрация</h2>
+        <form>
+            <label>Логин</label>
+            <input type="text" placeholder="Введите логин">
+            
+            <label>Email</label>
+            <input type="email" placeholder="Введите Email">
+            
+            <label>Имя</label>
+            <input type="text" placeholder="Введите имя">
+            
+            <label>Фамилия</label>
+            <input type="text" placeholder="Введите фамилию">
+            
+            <label>Пароль</label>
+            <input type="password"
+            id="password-input"
+            name="password" placeholder="Введите пароль">
+            <a
+            id="password-view"
+            href="#"
+            class="password-control"
+            onclick="return show_hide_password(this);"
+          ></a>
+            
+            <label>Повторите пароль</label>
+            <input type="password"
+            id="password-repeat"
+            name="password" placeholder="Повторите пароль">
+            <a
+            href="#"
+            id = "password-view1"
+            class="password-control"
+            onclick="return show_hide_password2(this);"
+          ></a>
+            <div class="buttons">
+                <div class="left">
+                    <span>Уже зарегистрированы?</span>
+                    <button class="login"><a href="/Authorization.html">Войти</a></button>
+                </div>
+                <button class="register">Зарегистрироваться</button>
+                <a href="index.html" class="back">Вернуться на главную</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

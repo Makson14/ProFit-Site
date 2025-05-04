@@ -1,5 +1,5 @@
 {
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "cSpell.words": [
         "Корзина",
         "Товары"
