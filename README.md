@@ -10,4 +10,6 @@
 - `Basket.html` — корзина
 - `Authorization.html` — авторизация
 - `Registration.html` — регистрация
+
+
 Проект размещён на github pages по адресу https://makson14.github.io/
